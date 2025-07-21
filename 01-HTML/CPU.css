@@ -1,0 +1,28 @@
+﻿body
+{
+    background-color:#323232;
+    color:gray;
+   /*font-family:Arial;*/
+    font-family:Roboto;
+}
+h4
+{
+    text-align:right;
+}
+p
+{
+    text-align:justify;
+    font-size:14pt;
+}
+ol
+{
+    list-style-type:upper-roman;
+}
+.nesting-lvl-1
+{
+    list-style-type:circle;
+}
+.nesting-lvl-2
+{
+    list-style-type:"- ";
+}
