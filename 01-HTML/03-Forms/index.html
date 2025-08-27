@@ -24,7 +24,8 @@
             </div>
             <div>
                 <label for="password">Пароль:</label>
-                <input for="password" id="password" name="password" size="32" placeholder="Пароль - Рыбамеч">
+                <input type="password" id="password" name="password" size="32" placeholder="Пароль - Рыбамеч"
+                       pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[~!@#$%^&*\(\)\[\]\{\}_+=\-\/\\'&quot\;:,.\|?<>]).{8,}$">
             </div>
             <div>
                 <label for="email">E-mail:</label>
